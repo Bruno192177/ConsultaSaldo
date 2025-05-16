@@ -53,6 +53,7 @@ public class ConsultarSaldoForm extends javax.swing.JDialog {
         jLabel3.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jLabel3.setText("NIP");
 
+        txtTarjeta.setBackground(new java.awt.Color(204, 204, 255));
         txtTarjeta.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
 
         btnAceptar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
@@ -66,16 +67,13 @@ public class ConsultarSaldoForm extends javax.swing.JDialog {
         jLabel4.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jLabel4.setText("CONSULTAR SALDO");
 
+        txtNip.setBackground(new java.awt.Color(204, 204, 255));
         txtNip.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(190, 190, 190)
-                .addComponent(jLabel4)
-                .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(44, 44, 44)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -98,6 +96,10 @@ public class ConsultarSaldoForm extends javax.swing.JDialog {
                         .addGap(210, 210, 210)
                         .addComponent(btnAceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(199, 199, 199)
+                .addComponent(jLabel4)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
